@@ -1,7 +1,6 @@
 # lagrangian-precision-wola
 
-MATLAB and VHDL source for the paper:
-> J. C. Maravilla, "A Perceptually Guided Lagrangian Framework for Fixed-Point Precision in Hearing-Aid Filterbanks," *IEEE Trans. Circuits Syst. II*, submitted 2026.
+MATLAB and VHDL source for a paper authored by J. C. Maravilla.
 
 The paper proposes a psychoacoustic Lagrangian framework that allocates fixed-point arithmetic precision heterogeneously across the 64 subbands of a WOLA filterbank, concentrating bits where they contribute most to speech intelligibility. The framework is validated on a Xilinx Artix-7 FPGA (XC7A200T) using post-implementation SAIF-annotated power estimation.
 
